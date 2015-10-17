@@ -37,7 +37,7 @@ void init() {
 	octree = new Octree(Vec3(0,0,0), Vec3(1,1,1));
 
 	// Create a bunch of random points
-	const int nPoints = 1 * 1000 * 1000;
+	const int nPoints = 10 * 1000 * 1000;
 	for(int i=0; i<nPoints; ++i) {
 		points.push_back(randVec3());
 	}
